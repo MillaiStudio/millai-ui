@@ -1,0 +1,19 @@
+.m-choice {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-small);
+    min-width: 0;
+    color: var(--semantic-colour-label);
+    font-size: var(--typography-content-size);
+    line-height: var(--typography-content-leading);
+    cursor: pointer;
+}
+
+.m-choice--disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.m-choice__label {
+    min-width: 0;
+}

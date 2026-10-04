@@ -1,0 +1,8 @@
+/*
+ * Single public stylesheet (published as `vue-millai-ui/styles.css`).
+ * Order matters: base reset first, then styles shared between components,
+ * then each component's own styles (appended by the library build).
+ */
+@import './styles/reset.css';
+@import './styles/field.css';
+@import './styles/choice.css';

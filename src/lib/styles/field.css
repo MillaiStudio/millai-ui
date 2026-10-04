@@ -1,0 +1,24 @@
+.m-field {
+    width: 100%;
+    min-width: 0;
+    padding: var(--spacing-small);
+    border: 1px solid var(--semantic-colour-input-border);
+    border-radius: var(--border-radius-medium);
+    color: var(--semantic-colour-input-fg);
+    background: var(--semantic-colour-input-bg);
+    font-size: var(--typography-content-size);
+    line-height: var(--typography-content-leading);
+}
+
+.m-field::placeholder {
+    color: var(--semantic-colour-input-placeholder);
+}
+
+.m-field:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.m-field[aria-invalid='true'] {
+    border-color: var(--semantic-colour-danger);
+}
