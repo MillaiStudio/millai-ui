@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: 'MillaiUI',
+    base:'/millai-ui/',
     description: 'A Vue UI component library by Millai',
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
