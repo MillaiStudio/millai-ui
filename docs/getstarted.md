@@ -5,7 +5,7 @@ MillaiUI は Vue 3 向けの UI コンポーネントライブラリです。Vue
 ## インストール
 
 ```sh
-pnpm add vue-millai-ui
+pnpm add @millai/millai-ui
 ```
 
 ## スタイルとテーマを設定する
@@ -14,8 +14,8 @@ pnpm add vue-millai-ui
 
 ```ts
 import { createApp } from 'vue';
-import { LightTheme, setTheme } from 'vue-millai-ui';
-import 'vue-millai-ui/styles.css';
+import { LightTheme, setTheme } from '@millai/millai-ui';
+import '@millai/millai-ui/styles.css';
 import App from './App.vue';
 
 setTheme(LightTheme);
@@ -35,7 +35,7 @@ setTheme(LightTheme, document.querySelector('#app')!);
 ```vue
 <script setup lang="ts">
 import { ref } from 'vue';
-import { MButton, MCard, MFormField, MTextInput, MVStack } from 'vue-millai-ui';
+import { MButton, MCard, MFormField, MTextInput, MVStack } from '@millai/millai-ui';
 
 const name = ref('');
 </script>
