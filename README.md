@@ -1,6 +1,6 @@
 <div align="center">
 
-# MillaiUI
+# MillaiUI - Preview
 
 <p align="center">Adaptive Vue 3 UI components with flexible theming</p>
 
